@@ -8,4 +8,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.sevice-thumb.active {
+  background: #797979;
+}
+.service-card {
+  display: none;
+}
+.service-card.active {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.move-up.active {
+  bottom: 30px;
 }
