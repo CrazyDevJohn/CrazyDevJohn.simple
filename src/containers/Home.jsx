@@ -66,7 +66,7 @@ const Home = () => {
           </a>
         </div>
         {/* image section */}
-        <div className="w-full h-full flex rounded-full overflow-hidden px-4  items-center justify-center mt-4 md:mt-0">
+        <div className="w-full h-full flex px-4  items-center justify-center mt-4 md:mt-0">
           <motion.div
             initial={{ y: 0 }}
             animate={{ y: [-10, 10, -10] }}
